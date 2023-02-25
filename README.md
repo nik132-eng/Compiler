@@ -1,3 +1,15 @@
+# Running the Backend
+
+1. Go to Backend File
+2. Start Dockerfile using command :
+    ```bash
+    docker build -t backend .
+    docker run -p 8001:8080 backend
+    ```
+3. Go to localhost:8001
+4. You will see the backend running on docker container
+5. Add the backend url in frontend file
+<hr>
 # Compiler
 
 1. Open Code editor terminal
